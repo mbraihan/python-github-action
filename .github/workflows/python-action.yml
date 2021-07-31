@@ -2,7 +2,7 @@ name: python-action
 
 on:
   schedule:
-    - cron: '1 10 * * 6'
+    - cron: '*/5 10 * * 6'
 
 jobs:
   build:
